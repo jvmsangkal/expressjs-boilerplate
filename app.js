@@ -48,7 +48,7 @@ function start () {
     }));
 
     app.use(express.static(path.join(__dirname, 'public')));
-    app.set('view engine', 'jade');
+    app.set('view engine', 'pug');
 
     app.use(router());
     app.use(error_handler.not_found());

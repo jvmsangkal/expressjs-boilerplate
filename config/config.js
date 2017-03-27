@@ -17,7 +17,7 @@ const config = {
     },
 
     UPLOADS_DIR: path.join(__dirname,'..', 'uploads'),
-    LOGS_DIR: path.join(__dirname, '..', 'logs'),
+    LOGS_DIR: path.join('/var/log/node'),
 
     DB: {
         database: 'app_db',
